@@ -1,7 +1,7 @@
 # 2048-game
 
 2048 is a game made by another developer on github (Gabriele Ciruli).
-I am a beginner python developer at this time and with a little help from some guide and a lot of retyping the same fucking thing for 2 hours 
+I am a beginner python developer at this time and with a little help from some guides and a lot of retyping the same fucking thing for 2 hours 
 I remade the game (probably worse than he did) and to say the least Im proud and very appreciative that YOU have taken the time to download this and check it out.
 
 GAMEPLAY:
