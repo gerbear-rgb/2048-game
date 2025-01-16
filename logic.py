@@ -36,8 +36,8 @@ def add_new_2(mat):
         
 #checks if the game is lost or won
 def get_current_state(mat):
-    #the game works that if any cell in the grid has 2048 you win 
-    #if you can't do any more moves then you lose
+    #if any cell in the grid has 2048 you win 
+    #if you can't do any more moves you lose
     
     #checks if the game is won 
     for i in range(0, 3):
@@ -124,7 +124,7 @@ def reverse(mat):
     #returns new_mat
     return new_mat
 
-#function to get the transpose of matrix (interchanging rows and collumns)
+#function to get the transpose of matrix
 
 def transpose(mat):
     new_mat = []
@@ -181,5 +181,3 @@ def move_down(grid):
     new_grid, changed = move_right(new_grid)
     new_grid = transpose(new_grid)
     return new_grid, changed
-
-#thats all the logic in the file we then use this to put the game together in 2048.py file
