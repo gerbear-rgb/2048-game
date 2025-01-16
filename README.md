@@ -34,3 +34,6 @@ if you cant make any more moves you lose
 it has a system that checks if you win or lose 
 
 the controls are listed when you start the game.
+
+
+run the file in your python code editor to play (run 2048.py logic.py is just a bunch of functions that 2048.py uses to make the game work)
